@@ -1,12 +1,4 @@
-# Aqar_Direct
-# افتح Terminal في مجلد المشروع
 cd /home/ubuntu/Aqar_Direct
-
-# أضف جميع الملفات
-git add .
-
-# احفظ التغييرات
-git commit -m "Initial commit - Aqar Direct app"
-
-# ارفع إلى GitHub
+git remote add origin https://github.com/YOUR_USERNAME/Aqar_Direct.git
+git branch -M main
 git push -u origin main
